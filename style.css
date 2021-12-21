@@ -34,4 +34,6 @@ section {
   position: absolute;
   top: 56px;
   padding: 25px;
+  width: 640px;
+  background: green;
 }
