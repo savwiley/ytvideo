@@ -1,3 +1,18 @@
+:root {
+  --text: #000;
+  --icons: #030303;
+  --disabledIcons: #909090;
+  --lightText: #606060;
+  --border: #ccc;
+  --button: #d3d3d3;
+  --hover: #c6c6c6;
+  --shadow: #f8f8f8;
+  --background: #f9f9f9;
+  --brand: #c00;
+  --brandHover: #990412;
+  --action: #0551b4;
+}
+
 * {
   margin: 0;
   padding: 0;
