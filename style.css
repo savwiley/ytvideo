@@ -20,6 +20,8 @@
   font-family: Roboto, Arial, sans-serif;
 }
 
+/* HEADER */
+
 header {
   background: rgba(255,255,255,0.9);
   position: fixed;
@@ -30,10 +32,21 @@ header {
   padding: 0 16px;
 }
 
+/* MAIN BODY */
+
 section {
   position: absolute;
   top: 56px;
   padding: 25px;
   width: 640px;
   background: green;
+}
+
+/* HASHTAGS */
+
+.hashtags {
+  color: var(--action);
+}
+.hash {
+  cursor: pointer;
 }
