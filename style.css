@@ -11,6 +11,7 @@
   --brand: #c00;
   --brandHover: #990412;
   --action: #0551b4;
+  --hash: #065fd4;
 }
 
 * {
@@ -35,18 +36,44 @@ header {
 /* MAIN BODY */
 
 section {
+  width: 853px;
   position: absolute;
   top: 56px;
-  padding: 25px;
-  width: 640px;
-  background: green;
+  padding: 24px 24px 0 0;
+  margin-left: 35px;
 }
 
-/* HASHTAGS */
+/* TITLE SPACE */
 
 .hashtags {
-  color: var(--action);
+  color: var(--hash);
+  font-size: 12px;
+  padding-top: 15px;
+  line-height: 15px;
 }
 .hash {
   cursor: pointer;
+}
+
+.titleBlock {
+  padding-bottom: 8px;
+}
+
+#title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.interactions {
+  height: 40px;
+  width: 853px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#viewsDate {
+  font-size: 14px;
+  color: var(--lightText);
 }
