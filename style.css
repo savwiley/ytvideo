@@ -10,8 +10,8 @@
   --background: #f9f9f9;
   --brand: #c00;
   --brandHover: #990412;
-  --action: #0551b4;
   --hash: #065fd4;
+  --action: #0551b4;
 }
 
 * {
@@ -31,6 +31,35 @@ header {
   right: 0;
   height: 56px;
   padding: 0 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#start, 
+#center, 
+#end {
+  background: rgba(255,255,255,0.9);
+}
+#start {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fas, .fab {
+  font-size: 24px;
+  background: rgba(255,255,255,0.9);
+}
+
+.fa-bars {
+  margin-right: 20px;
+}
+.fa-youtube {
+  color: #f00;
+  font-size: 28px;
 }
 
 /* MAIN BODY */
@@ -57,6 +86,7 @@ section {
 
 .titleBlock {
   padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 #title {
