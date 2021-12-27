@@ -71,6 +71,8 @@ header {
   outline: none;
   font-size: 16px;
   height: 24px;
+  display: flex;
+  flex-direction: row;
 }
 #center .search {
   background: var(--background);
@@ -86,6 +88,15 @@ header {
   border: none;
   border-radius: 50px;
   margin-left: 8px;
+}
+
+#end {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#end .fas {
+  margin-left: 30px;
 }
 
 .fas, .fab {
