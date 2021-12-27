@@ -58,6 +58,7 @@ header {
   cursor: pointer;
   font-family: 'Oswald', sans-serif;
   background: transparent;
+  margin-left: 2px;
 }
 
 #center input[type="text"] {
